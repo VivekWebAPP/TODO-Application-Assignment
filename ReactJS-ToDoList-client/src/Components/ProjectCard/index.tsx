@@ -55,7 +55,7 @@ const ProjectCard: React.FC<TaskCardProps> = ({ id, name, creationDate, creation
     }
 
     return (
-        <S.Container onClick={handleOnClick}>
+        <S.Container onClick={handleOnClick} style={{cursor: "pointer"}}>
             {/* <S.CheckField>
                 <S.CheckboxRing onClick={handleCheck}><S.CheckFill done={done} /></S.CheckboxRing>
             </S.CheckField> */}
